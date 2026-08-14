@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${Project_name}")
-		(date "2026-03-28")
+		(date "2026-08-14")
 		(rev "1")
 	)
 	(lib_symbols
@@ -3647,16 +3647,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 102.87) (xy 161.29 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7ace410-3f46-46b1-986a-70df521143fe")
-	)
-	(wire
-		(pts
 			(xy 101.6 50.8) (xy 86.36 50.8)
 		)
 		(stroke
@@ -3844,6 +3834,16 @@
 			(type default)
 		)
 		(uuid "e6e381e0-dea0-48bd-884f-6daaf4e18d22")
+	)
+	(wire
+		(pts
+			(xy 154.94 102.87) (xy 161.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1ed32b-3ff7-404c-ae14-c07c443e7c28")
 	)
 	(wire
 		(pts
@@ -4266,7 +4266,7 @@
 		(uuid "a5e1e813-7dbf-4088-bed6-7ee8f33d44a2")
 	)
 	(label "SCL"
-		(at 196.85 128.27 270)
+		(at 196.85 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
