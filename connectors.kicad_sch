@@ -1011,9 +1011,262 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 130.81 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "051f59eb-c17b-48c7-866f-0e649074ab90")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 163.83 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0754606b-3d68-4b7a-9bb1-69ba733b23d9")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 158.75 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07fbf8b5-28a1-43f3-a430-8194b28ef1ba")
+	)
+	(hierarchical_label "SCL"
+		(shape passive)
+		(at 130.81 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ee6a81c-5ea3-4174-97e9-61dfcace9067")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 130.81 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37dec0c8-ddf0-4ccf-8c57-e60c72cbfde8")
+	)
+	(hierarchical_label "VCC"
+		(shape passive)
+		(at 130.81 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "500e3df5-3c3f-40fb-a2af-c386c1d2be64")
+	)
+	(hierarchical_label "D4"
+		(shape bidirectional)
+		(at 130.81 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5235acaa-afad-48e6-99b5-c4d092f96e07")
+	)
+	(hierarchical_label "D8"
+		(shape bidirectional)
+		(at 130.81 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ac956fb-605d-4267-b16a-edaf250b17d0")
+	)
+	(hierarchical_label "VCC"
+		(shape passive)
+		(at 158.75 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bcc932e-f126-4703-b644-15856ed6d400")
+	)
+	(hierarchical_label "SCL"
+		(shape passive)
+		(at 151.13 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63efd5f1-b921-49d4-a62c-47f0f613c7a7")
+	)
+	(hierarchical_label "VCC"
+		(shape passive)
+		(at 130.81 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66b5e3aa-0542-4686-8e17-ea7eaa57cb65")
+	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 151.13 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "701a3493-acbd-4809-a6a1-611f41710acd")
+	)
+	(hierarchical_label "D2"
+		(shape bidirectional)
+		(at 130.81 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90a22f1d-e706-4f8e-9e5e-45ce9cc57305")
+	)
+	(hierarchical_label "RESET"
+		(shape passive)
+		(at 151.13 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a05c16b5-9f0c-437b-9a91-47bc0d35cf6a")
+	)
+	(hierarchical_label "D5"
+		(shape bidirectional)
+		(at 130.81 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa7ca2e1-e49f-4ad7-97de-8fd1c7789a68")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 163.83 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4383d35-4bd9-4198-83f3-05bed16ade95")
+	)
+	(hierarchical_label "D6"
+		(shape bidirectional)
+		(at 130.81 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc5c8b48-5ed2-4480-ab97-239aa0415ec8")
+	)
+	(hierarchical_label "D7"
+		(shape bidirectional)
+		(at 130.81 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1654ead-01f2-4198-86ab-64b83e74b7d5")
+	)
+	(hierarchical_label "VCC"
+		(shape passive)
+		(at 163.83 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8161ba1-497e-4807-bd31-3191c415e97d")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 130.81 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c86f0df3-941b-4781-8635-ccfa5f36977d")
+	)
+	(hierarchical_label "D3"
+		(shape bidirectional)
+		(at 130.81 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d76fbcfc-c622-459c-b339-1338632f052b")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 158.75 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de8d7c3e-79c3-400b-a680-51a2ba340415")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 158.75 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e81c1f71-a427-48fd-b751-2cfe598685f7")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 153.67 88.9 0)
+		(at 125.73 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1023,7 +1276,7 @@
 		(dnp no)
 		(uuid "73bbb7b9-3e71-466b-a551-61613929fb8a")
 		(property "Reference" "J1"
-			(at 154.305 81.28 0)
+			(at 126.365 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1033,7 +1286,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 154.305 83.82 0)
+			(at 126.365 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1043,7 +1296,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 153.67 88.9 0)
+			(at 125.73 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1054,7 +1307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 88.9 0)
+			(at 125.73 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1065,7 +1318,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 153.67 88.9 0)
+			(at 125.73 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1076,7 +1329,7 @@
 			)
 		)
 		(property "Purpose" "Serial UART"
-			(at 155.702 96.52 0)
+			(at 127.762 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1108,7 +1361,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 200.66 95.25 0)
+		(at 125.73 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1118,7 +1371,7 @@
 		(dnp no)
 		(uuid "a95fc4fb-75f7-44f0-b484-11bb79b2236b")
 		(property "Reference" "J3"
-			(at 201.295 80.01 0)
+			(at 126.365 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1128,7 +1381,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09_Pin"
-			(at 201.295 82.55 0)
+			(at 126.365 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1138,7 +1391,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
-			(at 200.66 95.25 0)
+			(at 125.73 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1149,7 +1402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 95.25 0)
+			(at 125.73 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1160,7 +1413,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 200.66 95.25 0)
+			(at 125.73 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1171,7 +1424,7 @@
 			)
 		)
 		(property "Purpose" "GPIO header"
-			(at 202.184 108.712 0)
+			(at 127.254 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1218,7 +1471,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 179.07 88.9 0)
+		(at 153.67 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1228,7 +1481,7 @@
 		(dnp no)
 		(uuid "ba722ffc-cb92-4685-bf8b-5d4a4c2c26ae")
 		(property "Reference" "J2"
-			(at 179.705 81.28 0)
+			(at 154.305 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1238,7 +1491,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 179.705 83.82 0)
+			(at 154.305 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1248,7 +1501,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 179.07 88.9 0)
+			(at 153.67 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1259,7 +1512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 88.9 0)
+			(at 153.67 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1270,7 +1523,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 179.07 88.9 0)
+			(at 153.67 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1281,7 +1534,7 @@
 			)
 		)
 		(property "Purpose" "I2C"
-			(at 182.626 96.774 0)
+			(at 157.226 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1313,7 +1566,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 153.67 116.84 0)
+		(at 156.21 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1323,7 +1576,7 @@
 		(dnp no)
 		(uuid "d9f3cbeb-35ab-4dae-a5a8-0e6a7738bfe3")
 		(property "Reference" "J4"
-			(at 154.94 107.95 0)
+			(at 157.48 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1333,7 +1586,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 154.94 110.49 0)
+			(at 157.48 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1343,7 +1596,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 153.67 116.84 0)
+			(at 156.21 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1354,7 +1607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 116.84 0)
+			(at 156.21 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1365,7 +1618,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 153.67 116.84 0)
+			(at 156.21 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1376,7 +1629,7 @@
 			)
 		)
 		(property "Purpose" "ICSP"
-			(at 154.94 122.682 0)
+			(at 157.48 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
