@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -405,7 +405,13 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "Purpose",
+          "url": false,
+          "visible": true
+        }
+      ],
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -427,16 +433,31 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "connectors",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "prj3-datalogger.kicad_sch",
+        "name": "Root",
+        "uuid": "6e9d2065-7b61-4fa9-8ffc-cd31ce5c40e2"
+      }
+    ],
+    "used_designators": "J1-4,Y1-2,H1-4,BT1,D1-2,C1-5,R1-4,U1-4",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "6e9d2065-7b61-4fa9-8ffc-cd31ce5c40e2",
+      "Root"
+    ],
+    [
+      "9c0bb8cc-2fab-4578-a729-fb18acba1407",
+      "connectors"
+    ]
+  ],
   "text_variables": {
     "Project_name": "MCU datalogger with memory clock"
   },
