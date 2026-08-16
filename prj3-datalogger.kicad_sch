@@ -3485,16 +3485,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 29.21) (xy 267.97 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89fe8729-d2b5-423a-bd99-2332b0e7e8af")
-	)
-	(wire
-		(pts
 			(xy 234.95 80.01) (xy 229.87 80.01)
 		)
 		(stroke
@@ -3725,7 +3715,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 29.21) (xy 256.54 29.21)
+			(xy 247.65 29.21) (xy 267.97 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4092,6 +4082,16 @@
 			(justify left bottom)
 		)
 		(uuid "1478bc86-d810-4e21-86bd-89fd973be9c5")
+	)
+	(label "VCC"
+		(at 262.89 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b4495ba-a819-42be-b2db-2405d73b3056")
 	)
 	(label "SCL"
 		(at 201.93 151.13 0)
