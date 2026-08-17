@@ -564,7 +564,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Libraries/MCU_datalogger_gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
