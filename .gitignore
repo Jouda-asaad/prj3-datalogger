@@ -3,4 +3,6 @@ prj3-datalogger-backups/*
 prj3dataloggergerber/*
 *.lck
 *.bak
+MCU_datalogger_gerbers/*
+4layer_MCU_datalogger_gerbers/*
  
