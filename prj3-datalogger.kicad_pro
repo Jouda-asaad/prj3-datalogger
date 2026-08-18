@@ -17,7 +17,7 @@
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
-        "dimension_units": 0,
+        "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
+          "corner_radius": 2.0,
           "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -564,7 +564,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "Libraries/4Layer_MCU_datalogger_gerbers/",
+      "plot": "Libraries/MCU_datalogger_gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -715,7 +715,7 @@
         "uuid": "6e9d2065-7b61-4fa9-8ffc-cd31ce5c40e2"
       }
     ],
-    "used_designators": "#FLG1-3,J1-4,#PWR1-8,Y1-2,H1-4,BT1,D1-2,C1-5,R1-7,U1-4",
+    "used_designators": "U1-4,R1-7,C1-5,D1-2,BT1,H1-4,Y1-2,#PWR1-8,J1-4,#FLG1-3",
     "variants": []
   },
   "sheets": [
