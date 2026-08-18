@@ -3985,16 +3985,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 139.7) (xy 83.82 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc478a54-f089-41eb-9348-59585378dd6c")
-	)
-	(wire
-		(pts
 			(xy 229.87 72.39) (xy 234.95 72.39)
 		)
 		(stroke
@@ -4193,7 +4183,7 @@
 		)
 		(uuid "593c9061-39ea-4a3a-80df-e4d7db5d493c")
 	)
-	(label "SCL"
+	(label "SCK"
 		(at 199.39 49.53 180)
 		(effects
 			(font
@@ -4202,6 +4192,16 @@
 			(justify right bottom)
 		)
 		(uuid "5ffaae6b-4df5-427d-9290-38257885a455")
+	)
+	(label "SCK"
+		(at 201.93 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "608eccfc-4901-4a5b-9178-8d4277c5932d")
 	)
 	(label "VCC"
 		(at 38.1 151.13 180)
@@ -7762,84 +7762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 83.82 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2a42d79-92b5-43d3-bdfb-51c1f94f23d1")
-		(property "Reference" "#FLG03"
-			(at 83.82 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 83.82 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 83.82 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d9908173-4523-49b3-9c35-44682346763b")
-		)
-		(instances
-			(project "prj3-datalogger"
-				(path "/6e9d2065-7b61-4fa9-8ffc-cd31ce5c40e2"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 177.8 34.29 0)
 		(unit 1)
@@ -8121,6 +8043,16 @@
 		(pin "VCC" passive
 			(at 201.93 132.08 0)
 			(uuid "1551fca9-8100-40f9-ba24-ba681ec30c7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" passive
+			(at 201.93 156.21 0)
+			(uuid "5b4905d7-cadf-40b4-99db-57071dc6bfc2")
 			(effects
 				(font
 					(size 1.27 1.27)
